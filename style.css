@@ -1,9 +1,13 @@
+:root {
+  font-size: 16px;
+}
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.container {
+/* .container {
     height: 100vh;
     display: flex;
     flex-flow: column;
@@ -17,7 +21,6 @@
     color: cornsilk;
     border: none;
     border-radius: 10px;
-    /* margin: 25px; */
     padding: 25px;
     width: 200px;
 }
@@ -48,7 +51,6 @@ button.btn3:hover {
     color: rgb(226, 43, 134);
     border: 3px solid rgb(226, 43, 134);
     border-radius: 10px;
-    /* margin: 25px; */
     padding: 25px;
     width: 200px;
 }
@@ -56,4 +58,50 @@ button.btn3:hover {
 button.btn4:hover {
     background-color: rgb(226, 43, 134);
     color: wheat;
+} */
+.Nav-Items {
+  background-color: rgb(41, 51, 51);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: rgb(226, 43, 134);
+  color: cornsilk;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  width: 150px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+button:hover {
+  box-shadow: 10px 10px 20px black;
+}
+
+#logo {
+  margin: 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a#logo:visited {
+  color: aliceblue;
+}
+
+/* a#logo:hover {
+  font-size: 24px;
+} */
+
+.UL {
+  width: 500px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
